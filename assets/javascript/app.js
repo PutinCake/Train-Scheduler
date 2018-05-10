@@ -85,12 +85,8 @@ $(document).ready(function() {
       //console.log("Errors handled: " + errorObject.code)
     });
 
-    var getKey = "";
-
     $("body").on("click", ".remove-train", function(){
       $(this).closest ('tr').remove();
-      getKey = $(this).parent().parent().attr('id');
-      dataRef.child(getKey).remove();
     });
 
 
