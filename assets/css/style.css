@@ -1,0 +1,20 @@
+body {
+    background: url(http://shareyourwallpapers.com/upload/wallpaper/vehicles/trains/trains_70d83951.jpg);
+
+}
+
+.card-header{
+    height: 60px;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.row{
+    opacity: 0.9;
+}
+
+.jumbotron{
+    opacity: 0.8;
+}
